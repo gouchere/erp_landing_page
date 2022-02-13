@@ -1,0 +1,24 @@
+@use "../utils/variable" as v;
+@use "../utils/mixins" as m;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: v.$font-size;
+    max-width: 1300px;
+    margin: 0 auto;
+    @include m.primary-font;
+  }
+  
+p {
+    margin-bottom: 0;
+    padding: v.$p-padding;
+  }

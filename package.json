@@ -1,0 +1,23 @@
+{
+  "name": "erp_landing_page",
+  "version": "1.0.0",
+  "description": "Ecrire une landing page avec javascript vanilla",
+  "main": "index.html",
+  "scripts": {
+    "sass":"sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gouchere/erp_landing_page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gouchere/erp_landing_page/issues"
+  },
+  "homepage": "https://github.com/gouchere/erp_landing_page#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.49.7"
+  }
+}

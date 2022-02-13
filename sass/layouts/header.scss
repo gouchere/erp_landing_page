@@ -1,0 +1,38 @@
+@use "../utils/variable" as v;
+@use "../utils/mixins" as m;
+
+.topnav {
+    overflow: hidden;
+    margin: 3.5%;
+    a {
+        float: left;
+        display: block;
+        color: v.$primary;
+        text-align: center;
+        padding: 12px 12px;
+        margin: 5px;
+        text-decoration: none;
+        font-size: 20px;
+        @include m.secondary-font;
+        &:hover{
+            background-color: v.$secondary;
+            color: v.$white;
+            border-radius: 15px;
+        }
+        &.active {
+            background-color:  v.$secondary;
+            color:  v.$white;
+            border-radius: 15px;
+          }
+      }
+  }
+  .header-logo {
+      float: left;
+  }
+  .main-navbar {
+      float: right;
+  } 
+ 
+  .topnav .icon {
+    display: none;
+  }

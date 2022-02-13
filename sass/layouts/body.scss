@@ -1,0 +1,15 @@
+@use "../utils/variable" as v;
+
+main {
+    font-size: 130%;
+    font-weight: bolder;
+    color: v.$primary;
+    padding-top: 0.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin: 1px 20px 15px;
+    border-radius: 2rem;
+    text-align: justify;
+  
+  
+  }

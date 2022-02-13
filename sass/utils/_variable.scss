@@ -1,0 +1,13 @@
+@use "../utils/mixins" as m;
+
+$white:#FFF;
+$primary:#000000;
+$secondary:#ff0000;
+/* Définition des police */
+$primary-font: "DM Sans, Arial, Helvetica, sans-serif";
+$font-size:18px;
+$p-padding:0.5vw;
+$secondary-font: Roboto, sans-serif;
+
+/* Variable d'annimation */
+$modal-duration: 0.8s;
